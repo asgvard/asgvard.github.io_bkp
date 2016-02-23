@@ -1,5 +1,6 @@
 body {
     background: rgb(204,204,204);
+    font-weight: 500;
 }
 
 .size-a4 {
@@ -16,4 +17,25 @@ body {
         margin: 0;
         box-shadow: 0;
     }
+}
+
+.header {
+    height: 1.7cm;
+    padding: 16px;
+}
+
+.general-info {
+    height: 4cm;
+}
+
+.main-content {
+    height: 24cm;
+}
+
+.name {
+    font-size: 26px;
+}
+
+.photo-wrapper {
+    margin-top: 20px;
 }
