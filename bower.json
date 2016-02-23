@@ -1,0 +1,18 @@
+{
+  "name": "asgvard.github.io",
+  "homepage": "http://asgvard.github.io",
+  "description": "Personal page",
+  "moduleType": [],
+  "keywords": [
+    "cv"
+  ],
+  "authors": [
+    "Dmitriy Bryokhin <asgvard@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.5",
+    "material-design-icons-iconfont": "~2.0.4"
+  }
+}
