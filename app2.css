@@ -3,6 +3,7 @@ body {
 }
 
 .size-a4 {
+    padding: 6px;
     background: white;
     width: 21cm;
     height: 29.7cm;
@@ -15,5 +16,6 @@ body {
     body, .size-a4 {
         margin: 0;
         box-shadow: 0;
+        -webkit-print-color-adjust: exact;
     }
 }

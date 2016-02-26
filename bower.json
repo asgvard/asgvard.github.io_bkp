@@ -13,6 +13,7 @@
   "ignore": [],
   "dependencies": {
     "Materialize": "materialize#~0.97.5",
-    "material-design-icons-iconfont": "~2.0.4"
+    "material-design-icons-iconfont": "~2.0.4",
+    "font-awesome": "^4.5.0"
   }
 }
