@@ -1,9 +1,9 @@
 body {
     background: rgb(204,204,204);
-    font-weight: 500;
 }
 
 .size-a4 {
+    padding: 6px;
     background: white;
     width: 21cm;
     height: 29.7cm;
@@ -16,26 +16,106 @@ body {
     body, .size-a4 {
         margin: 0;
         box-shadow: 0;
+        -webkit-print-color-adjust: exact;
     }
 }
 
-.header {
-    height: 1.7cm;
-    padding: 16px;
+input[type="range"] {
+    border: 0;
 }
 
-.general-info {
-    height: 4cm;
+#right-box .row {
+    margin-bottom: 5px;
 }
 
-.main-content {
-    height: 24cm;
+#header-card {
+    padding: 0;
+    margin-bottom: 3px;
 }
 
-.name {
-    font-size: 26px;
+#header-row {
+    height: 195px;
 }
 
-.photo-wrapper {
-    margin-top: 20px;
+#photo-wrapper {
+    padding: 0;
+}
+
+.responsive-img.photo {
+    min-width: 100%;
+}
+
+#self-description-col {
+    padding: 10px 15px;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Charocal, sans-serif;
+}
+
+#job-position {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#self-description {
+    font-size: 11px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.main-content .row .col {
+    padding: 0 0.2em;
+}
+
+#right-box {
+    padding-top: 7px;
+}
+
+#work-experience-card, #projects-card, #education-card {
+    padding-top: 5px;
+    margin: 9px 0;
+}
+
+.row .section-title {
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Impact, Charocal, sans-serif;
+}
+
+.job-description, .project-description {
+    font-size: 11px;
+}
+
+.job-title, .job-date, .project-title {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.education-degree, .education-authority, .education-time {
+    font-size: 11px;
+}
+
+#left-box .divider {
+    margin: 3px 0;
+}
+
+.right-box-section {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#right-box .divider {
+    margin: 12px 0;
+}
+
+.progress {
+    margin: 0.77rem 0 1rem 0;
 }
