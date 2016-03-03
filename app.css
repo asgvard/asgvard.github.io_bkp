@@ -119,3 +119,27 @@ input[type="range"] {
 .progress {
     margin: 0.77rem 0 1rem 0;
 }
+
+.material-placeholder {
+    margin: 0 0.15rem;
+    display: inline-block;
+}
+
+#portfolio .divider {
+    margin: 5px 0;
+}
+
+.portfolio-project-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.portfolio-project-description {
+    padding: 10px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#portfolio .chip {
+    font-size: 11px;
+}
