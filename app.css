@@ -25,7 +25,7 @@ input[type="range"] {
 }
 
 #right-box .row {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 #header-card {
@@ -35,6 +35,7 @@ input[type="range"] {
 
 #header-row {
     height: 195px;
+    margin-bottom: 10px;
 }
 
 #photo-wrapper {
@@ -77,6 +78,7 @@ input[type="range"] {
 #work-experience-card, #projects-card, #education-card {
     padding-top: 5px;
     margin: 9px 0;
+    padding-bottom: 5px;
 }
 
 .row .section-title {
@@ -90,6 +92,7 @@ input[type="range"] {
 
 .job-description, .project-description {
     font-size: 11px;
+    text-align: justify;
 }
 
 .job-title, .job-date, .project-title {
